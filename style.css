@@ -1,0 +1,70 @@
+/* Padrão do corpo do site*/
+/* Alinhamento central dos elementos e retirada das margens*/
+body {
+    font-family: 'Open Sans';
+    text-align: center;
+    margin: 0px;             /* Garante espaços de elementos, imagens por exemplo, próximo as margens*/
+}
+
+#hero {
+    /* width: largura de fronteira da página */    
+    width: 626px;
+    /* Margen lateral, auto, com base a largura, width, acima e não tamanho do browser*/
+    margin: 64px auto 64px;
+}
+
+#hero img {
+    margin-bottom: 32px;
+}
+
+h1 {
+    font-family: 'Dosis';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+h1 span {
+    color: #EE24FF;
+    font-weight: 700; 
+}
+
+p, footer {
+    color: #828282;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 16px 36px 32px 50px
+}
+
+a {
+    text-decoration: none;
+}
+
+#footer a + a {
+    /* Margem entre os textos */
+    margin-left: 42px;
+    color: #3F3D56;
+}
+
+strong {
+    color: #3F3D56;
+    font-weight: 700;
+}
+
+#Flutuar {
+    color: #828282;
+}
+
+.line {
+    width: 391px;
+    height: 0px;
+    margin: 0 auto 16px;
+
+    border: 1px #ECEFF2 solid;
+}
+
+img {
+    top: 42px;
+    margin-top: 40.83px;
+
+}
